@@ -1,0 +1,115 @@
+.main svg{
+	width: 20px;
+	float: right;
+	margin: 5%;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-right: 8%;
+	padding-left: 8%;
+}
+
+.logo{
+	color: whitesmoke;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+span{
+	color: red;
+	font-style: bold;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 12px 24px;
+}
+nav ul li a{
+
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+	font-size: large;
+    color:whitesmoke;
+}
+
+nav ul li a:hover{
+    color:blue;
+    transition: 0.4s;
+}
+
+.self{
+	position: absolute;
+	top: 55%;
+	left: 9%;
+	transform: translateY(-60px);
+}
+
+.about Me{
+	margin: auto;
+	padding: 0;
+
+}
+h1{
+	float: right;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 120px;
+	margin-bottom: 150px;
+}
+
+img {
+	float: left;
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 2px;
+    width: 150px;
+    height: 190px;	
+	display: block;
+	margin: auto;
+	
+}
+
+h1 img p{
+	float: right;
+	margin-left: auto;
+	
+}
+h2{
+	color:whitesmoke;
+	margin: 12px 0px  10px;
+	font-size: 20px;
+	padding: 1px;
+}
+
+h4{
+	color: whitesmoke;
+	letter-spacing: 1px;
+	font-size: 23px;
+}
+
+h3{
+	color: whitesmoke;
+	font-size: 18px;
+}
+
+.h3 span{
+	color: red;
+}
+
+.aboutme{
+	margin: auto;
+}
